@@ -56,7 +56,7 @@ const Home = () => {
               src={`${process.env.PUBLIC_URL}/img/Sensedge.jpg`}
               alt='Card'
             />
-            <div className='m-2 p-2'>
+            <div className='m-1 p-2'>
               <span className='font-bold text-pink-700 text-lg sm:text-2xl'>
                 <Link to='/sensedge' className='text-black-500 hover:underline'>
                   Senesedge Mini
