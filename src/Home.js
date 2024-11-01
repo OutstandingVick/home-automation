@@ -42,7 +42,7 @@ const Home = () => {
               alt='Card'
             />
             <div className='m-2 p-2'>
-              <span className='font-bold text-pink-700 text-lg sm:text-2xl'>
+              <span className='font-bold text-pink-700 text-base sm:text-2xl'>
                 <Link to='/awair' className='text-black-500 hover:underline'>
                   Awair Element
                 </Link>
@@ -56,8 +56,8 @@ const Home = () => {
               src={`${process.env.PUBLIC_URL}/img/Sensedge.jpg`}
               alt='Card'
             />
-            <div className='m-1 p-2'>
-              <span className='font-bold text-pink-700 text-lg sm:text-2xl'>
+            <div className='m-2 p-2'>
+              <span className='font-bold text-pink-700 text-base sm:text-2xl'>
                 <Link to='/sensedge' className='text-black-500 hover:underline'>
                   Senesedge Mini
                 </Link>
@@ -71,8 +71,8 @@ const Home = () => {
               src={`${process.env.PUBLIC_URL}/img/Aqara.png`}
               alt='Card'
             />
-            <div className='m-1 p-2'>
-              <span className='font-bold text-pink-700 text-lg sm:text-2xl'>
+            <div className='m-2 p-2'>
+              <span className='font-bold text-pink-700 text-base sm:text-2xl'>
                 <Link to='/aqara' className='text-black-500 hover:underline'>
                   Aqara Thermostat
                 </Link>
