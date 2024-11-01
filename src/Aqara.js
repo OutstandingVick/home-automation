@@ -11,17 +11,17 @@ const Awair = () => {
         />
       </div>
       <div className='flex-1 m-4 p-4 lg:pb-96 font-libre text-slate-950 w-full'>
-        <h1 className='text-4xl pb-2 lg:text-3xl font-shippori font-bold'>
+        <h1 className='text-xl pb-2 lg:text-3xl font-shippori font-bold'>
           AQARA THERMOSTAT
         </h1>
-        <h1 className='text-2xl pb-2 lg:text-4xl font-shippori'>
+        <h1 className='text-lg pb-2 lg:text-4xl font-shippori'>
           It provides temperature and humidity readings to optimize comfort of
           your home.
         </h1>
 
-        <div className='w-full font-shippori text-xl'>
+        <div className='w-full font-shippori text-lg'>
           <h3 className='pt-4 font-bold'>INFO</h3>
-          <p className='list-disc list-inside textde'>
+          <p className='list-disc list-inside'>
             Temp: 32°C°F
             <br />
             Humidity: 94%

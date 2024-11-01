@@ -8,7 +8,7 @@ const Home = () => {
         <div className='relative card'>
           {/* Image */}
           <img
-            className='w-full h-auto bg-no-repeat bg-center bg-cover'
+            className='w-full h-72 sm:h-auto bg-no-repeat bg-center bg-cover'
             src={`${process.env.PUBLIC_URL}/img/home.jpg`}
             alt='Home'
           />
@@ -35,14 +35,14 @@ const Home = () => {
         </div>
         <div className='mx-4 sm:mx-8 lg:mx-16 my-4 grid grid-cols-2 lg:grid-cols-3 place-items-center gap-6 font-space'>
           {/* sensor 1 */}
-          <div className='card hover:shadow-lg w-full h-64 lg:w-3/4 opacity-100 bg-slate-950 shadow-md overflow-hidden'>
+          <div className='card hover:shadow-lg w-full h-52 lg:w-3/4 opacity-100 rounded-md bg-slate-950 shadow-md overflow-hidden'>
             <img
-              className='w-full h-40 sm:h-64 lg:h-72 object-cover'
+              className='w-full h-36 sm:h-60 lg:h-64 object-cover'
               src={`${process.env.PUBLIC_URL}/img/Awair.jpg`}
               alt='Card'
             />
-            <div className='m-4 p-2'>
-              <span className='font-bold text-pink-700 text-2xl'>
+            <div className='m-2 p-2'>
+              <span className='font-bold text-pink-700 text-lg sm:text-2xl'>
                 <Link to='/awair' className='text-black-500 hover:underline'>
                   Awair Element
                 </Link>
@@ -50,14 +50,14 @@ const Home = () => {
             </div>
           </div>
           {/* sensor 2 */}
-          <div className='card hover:shadow-lg w-full h-64 lg:w-3/4 opacity-100 bg-slate-950 shadow-md overflow-hidden'>
+          <div className='card hover:shadow-lg w-full h-52 lg:w-3/4 opacity-100 rounded-md bg-slate-950 shadow-md overflow-hidden'>
             <img
-              className='w-full h-40 sm:h-64 lg:h-72 object-cover'
+              className='w-full h-36 sm:h-60 lg:h-64  object-cover'
               src={`${process.env.PUBLIC_URL}/img/Sensedge.jpg`}
               alt='Card'
             />
-            <div className='m-4 p-2'>
-              <span className='font-bold text-pink-700 text-2xl'>
+            <div className='m-2 p-2'>
+              <span className='font-bold text-pink-700 text-lg sm:text-2xl'>
                 <Link to='/sensedge' className='text-black-500 hover:underline'>
                   Senesedge Mini
                 </Link>
@@ -65,14 +65,14 @@ const Home = () => {
             </div>
           </div>
           {/* sensor 3 */}
-          <div className='card hover:shadow-lg w-full h-64 lg:w-3/4 opacity-100 bg-slate-950 shadow-md overflow-hidden'>
+          <div className='card hover:shadow-lg w-full h-52 lg:w-3/4 opacity-100 rounded-md bg-slate-950 shadow-md overflow-hidden'>
             <img
-              className='w-full h-40 sm:h-64 lg:h-72 object-cover'
+              className='w-full h-36 sm:h-60 lg:h-64 object-cover'
               src={`${process.env.PUBLIC_URL}/img/Aqara.png`}
               alt='Card'
             />
-            <div className='m-4 p-2'>
-              <span className='font-bold text-pink-700 text-2xl'>
+            <div className='m-1 p-2'>
+              <span className='font-bold text-pink-700 text-lg sm:text-2xl'>
                 <Link to='/aqara' className='text-black-500 hover:underline'>
                   Aqara Thermostat
                 </Link>
